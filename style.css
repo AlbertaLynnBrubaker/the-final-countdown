@@ -1,0 +1,10 @@
+body {
+    background: pink;
+}
+
+h1 {
+    font-size: 250px;
+    font-family: fantasy;
+    margin: auto;
+    text-align: center;
+}
