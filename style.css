@@ -29,6 +29,10 @@ ul {
 li {
     display: list-item;
     font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #20518e;
 }
 
 .menu {
@@ -40,8 +44,42 @@ li {
     box-sizing: border-box;
     width: 100%;
     height: 20%;
-    border: solid #6AA6F2 3px;
-    padding-top: 110px;
-    padding-bottom: 5px;
+    min-height: 60px;
+    border: 0;
+    padding-top:10%;
+    padding-bottom: 10%;
     text-align: center;
+}
+
+#menu-pic {
+    box-sizing: content-box;
+    width: 75%;
+    height: 75%;
+    min-width: 40px;
+    min-height: 40px;
+    border: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#menu-pic img {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.menu-button-default {
+    box-sizing: content-box;
+    width: 75%;
+    height: 75%;
+    min-width: 40px;
+    min-height: 40px;
+    border: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-button-default img {
+    max-width: 100%;
+    max-height: 100%;
 }
