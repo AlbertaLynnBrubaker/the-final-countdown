@@ -3,29 +3,39 @@
     <head>
         <title>Alie Brubaker's Personal Website</title>
         <link rel="stylesheet" href="./style.css"/>
+        <script src="./script.js"></script>
     </head>
     <body>
         <header id="left-header">
             <ul class="menu">
-                <li id="menu pic" class="menu-button">
+                <li id="menu-0" class="menu-button">
                     <div id="menu-pic"><img src="./images/AliePicHeart.jpg" alt="borked" /></div>
                     Alie Brubaker
                 </li>
-                <li id= "menu-1" class="menu-button">
-                    <div class="menu-button-default"><img src="./images/AboutMeButtonDefault1.png" alt="borked" /></div>
-                    About Me
+                <li id= "menu-1" class="menu-button"
+                onmouseover="mouseEnter('menu-1', 'menu-1-text', 'menu-button-default-aboutme', './images/AboutMeButtonMouseover1.png' )" 
+                onmouseout="mouseOut('menu-1', 'menu-1-text', 'menu-button-default-aboutme', './images/AboutMeButtonDefault1.png')"
+                onclick="mouseClick('menu-1', 'menu-1-text', 'menu-button-default-aboutme', './images/AboutMeButtonSelected1.png')">
+                    <div class="menu-button-default"><img id="menu-button-default-aboutme" src="./images/AboutMeButtonDefault1.png" alt="borked" /></div>
+                    <div id="menu-1-text">About Me</div>
                 </li>
-                <li id= "menu-2" class="menu-button">
-                    <div class="menu-button-default"><img src="./images/WorkHistoryButtonDefault1.png" alt="borked" /></div>
-                    Work History
+                <li id= "menu-2" class="menu-button"
+                onmouseover="mouseEnter('menu-2', 'menu-2-text', 'menu-button-default-workhistory', './images/WorkHistoryButtonMouseover1.png' )" 
+                onmouseout="mouseOut('menu-2', 'menu-2-text', 'menu-button-default-workhistory', './images/WorkHistoryButtonDefault1.png')">
+                    <div class="menu-button-default"><img id="menu-button-default-workhistory" src="./images/WorkHistoryButtonDefault1.png" alt="borked" /></div>
+                    <div id="menu-2-text">Work History</div>
                 </li>
-                <li id= "menu-3" class="menu-button">
-                    <div class="menu-button-default"><img src="./images/ProjectButtonDefault1.png" alt="borked" /></div>
-                    Projects
+                <li id= "menu-3" class="menu-button" 
+                onmouseover="mouseEnter('menu-3', 'menu-3-text', 'menu-button-default-projects', './images/ProjectButtonMouseover1.png' )" 
+                onmouseout="mouseOut('menu-3', 'menu-3-text', 'menu-button-default-projects', './images/ProjectButtonDefault1.png')">
+                    <div class="menu-button-default"><img id="menu-button-default-projects" src="./images/ProjectButtonDefault1.png" alt="borked" /></div>
+                    <div id="menu-3-text">Projects</div>
                 </li>
-                <li id= "menu-4" class="menu-button">
-                    <div class="menu-button-default"><img src="./images/HomeButtonDefault1.png" alt="borked" /></div>
-                    Home
+                <li id= "menu-4" class="menu-button" 
+                onmouseover="mouseEnter('menu-4', 'menu-4-text', 'menu-button-default-home', './images/HomeButtonMouseover1.png' )" 
+                onmouseout="mouseOut('menu-4', 'menu-4-text', 'menu-button-default-home', './images/HomeButtonDefault1.png')">
+                    <div class="menu-button-default"><img id="menu-button-default-home" src="./images/HomeButtonDefault1.png" alt="borked" /></div>
+                    <div id="menu-4-text">Home</div>
                 </li>
             </ul>
         </header>
