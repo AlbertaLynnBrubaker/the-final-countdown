@@ -1,3 +1,7 @@
+let menuButtons = document.getElementsByClassName("menu-button");
+console.log(menuButtons);
+console.log(typeof menuButtons[1]);
+
 function mouseEnter(a, b, c, d) {
     document.getElementById(a).style.backgroundColor = "#20518E";
     document.getElementById(b).style.color = "#C2DDFF";
@@ -10,14 +14,12 @@ function mouseOut(a, b, c, d) {
     document.getElementById(c).src=d;
 }
 
-function mouseClick(a, b, c, d) {
+/*function mouseClick(a, b, c, d) {
     document.getElementById(a).style.backgroundColor = "#FFDEF3";
     document.getElementById(b).style.color = "#20518E";
     document.getElementById(c).src=d;
     if (a === "menu-1") {
-        const content1 = document.createElement("div");
-        content1.setAttribute("class", "content")
-        content1.textContent = "Bababooey!"
-        document.body.append(content1);
+        document.getElementById("content").style.display = "none";
+        document.getElementById("content-about-me").style.display = "contents"; 
     };
-}
+}*/
