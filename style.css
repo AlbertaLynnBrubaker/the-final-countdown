@@ -84,6 +84,10 @@ li {
     max-height: 100%;
 }
 
+#menu-4 {
+    background-color: #FFDEF3;
+}
+
 #content-wrapper {
     margin-left: 200px;
     box-sizing: border-box;
@@ -109,18 +113,27 @@ li {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
-/*#content-about-me {
-    display: none;
+h2 {
+    font-size: 32px;
 }
 
-#content-work-history {
-    display: none;
+h3 {
+    font-size: 20px;
 }
 
-#content-projects {
-    display: none;
-}*/
+.content-wh-inline1,
+.content-wh-inline2 {
+    width: 49%;
+}
 
+.content-wh-inline1 {
+    float: left;
+    padding-bottom: 20px;
+}
+
+.content-wh-inline2 {
+    float: right;
+}
